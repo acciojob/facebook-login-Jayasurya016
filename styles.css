@@ -13,6 +13,23 @@ body {
   display: inline-block;
 }
 
+.left img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 20px;
+  color: #333;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
 form {
   display: flex;
   width: 300px;
@@ -48,7 +65,7 @@ a {
   text-align: center;
 }
 
-.signup-btn {
+.signup {
   background-color: #42b72a;
   border-radius: 5px;
   padding: 10px 20px;
